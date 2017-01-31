@@ -1,0 +1,15 @@
+
+.btn-warning,
+input.txt,
+.search .search-form .inpt,
+.formats .btn{behavior: url(css/PIE.htc);}
+.search{zoom:1;}
+*+html .formats .item .holder{
+	position:absolute;
+	bottom:0;
+	margin-left: -79px;
+}
+*+html .target ul li{
+	display:inline;
+	zoom:1;
+}

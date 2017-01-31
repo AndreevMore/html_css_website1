@@ -1,0 +1,86 @@
+/* custom forms styles */
+.customForm-hidden {
+	display: block !important;
+	position: absolute !important;
+	left:-9999px !important;
+}
+/* custom select styles */
+.select-area {
+	background:#eceded;
+	font:15px/21px 'HelveticaNeue-Regular', sans-serif;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	color:#888;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.select-area .select-opener {
+	background: url(../images/bg-select.png) no-repeat;
+	width:15px;
+	height:9px;
+	position: absolute;
+	z-index: 1;
+	top: 16px;
+	right:13px;
+	cursor:pointer;
+}
+.select-area .center {
+	white-space: nowrap;
+	position: relative;
+	height:21px;
+	padding:9px 8px;
+	cursor: default;
+	display: block;
+	z-index: 2;
+	overflow:hidden;
+}
+.options-overflow div.drop-list {
+	overflow: auto;
+	color:#acacac;
+}
+.options-hidden {
+	position: absolute !important;
+	top: -9999px !important;
+	left: -9999px !important;
+}
+.select-options {
+	z-index: 3000;
+	position: absolute;
+}
+.select-options-flipped .drop-holder {border-width: 1px 2px 0;}
+.select-options div.drop-list {width: 100%;}
+.select-options ul {
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border:1px solid #e1e1e1;
+}
+.select-options ul li {
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	background:#fff;
+}
+.select-options ul a {
+	text-decoration: none;
+	cursor: default;
+	color: #888;
+	font:15px/21px 'HelveticaNeue-Regular', sans-serif;
+	display: block;
+	overflow: hidden;
+	height: 1%;
+	padding: 8px 4px;
+}
+.select-options ul a span {
+	cursor: default;
+	float: left;
+}
+.select-options .item-selected a {
+	text-decoration: none;
+	background:#eceded;
+	color:#fff;
+	font:15px/21px 'HelveticaNeue-Regular', sans-serif;
+}
